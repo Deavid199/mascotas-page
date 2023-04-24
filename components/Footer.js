@@ -3,7 +3,7 @@ import {BsFacebook, BsInstagram, BsTwitter} from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <footer className="bg-footer bg-cover bg-center bg-no-repeat min-h-[263px] flex items-center py-8">
+    <footer className="bg-footer flex-wrap bg-cover bg-center bg-no-repeat min-h-[263px] flex items-center pt-8">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between">
           <div className="flex-1 text-orange text-4xl text-centerr lg:text-left flex items-center justify-center lg:justify-start mb-6">Pet First</div>
@@ -25,6 +25,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+        <div className='w-full flex justify-center'>
+          <a href='https://davideveloping.com' className='text-orange text-base' target="_blank" rel="noopener noreferrer">Copyright David Developing &copy; 2023</a>
+        </div>
     </footer>
   )
 }
